@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVbook</title>
+    <link href = "css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div class = "container_CreateP">
+        <h1 class = "title">Haz tus publicaciones</h1>
+        <input id = "userName" class = "input_text" placeholder="Escribe tu nombre de Usuario" type="text">
+       
+        <textarea class="input_text" rows="5" id="post" name="Info post"  placeholder="Escribe la info de tu publicacion"></textarea>
+        <button class = "buttons" id = "publish_Post">Publicar publicacion</button>
+    </div>
+    <div id = "potsContainer" class = "postsContainers">
+
+    </div>
+
+    </body>
+    </html>
+
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
+<script>
+
+    var firebaseConfig = {
+      apiKey: "AIzaSyBv5nWjRCtx9EXQkcjd3zy5Dk7y8ZQJsRI",
+      authDomain: "pruebaeco-ce227.firebaseapp.com",
+      databaseURL: "https://pruebaeco-ce227.firebaseio.com",
+      projectId: "pruebaeco-ce227",
+      storageBucket: "pruebaeco-ce227.appspot.com",
+      messagingSenderId: "831118328954",
+      appId: "1:831118328954:web:0ed7b3ae8b9713a07f27c3",
+      measurementId: "G-QD5J00R020"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+
+    const database = firebase.database();
+
+  </script>
+
+<script src="components/comment.js"></script>
+<script src = "components/post.js"></script>
+<script src="index.js"></script>

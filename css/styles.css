@@ -1,0 +1,83 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.container_CreateP{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto ;
+    padding: 20px 20px 20px 20px;
+}
+.input_text{
+    margin: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    padding:4px;
+    border-color: blueviolet;
+}
+#userName{
+    width: 20em;
+    font-size: 12px;
+    border-radius: 5px;
+    padding:4px;
+    border-color: blueviolet;
+    border-width: 0.5px;
+
+}
+#post{
+    width: 20em;
+    height: 10em;
+    font-size: 12px;
+    border-radius: 8px;
+    border-color: blueviolet;
+    vertical-align: top;
+
+}
+.buttons{
+    width: 15em;
+    padding: 4px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    color:white;
+    border-color: blueviolet;
+}
+h1{
+    color: blueviolet; 
+}
+.postsContainers{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto ;
+    padding: 20px 20px 20px 20px;
+    
+}
+.postComponent{
+    background-color: violet;
+    margin: 10px;
+    border-radius: 8%;
+    padding: 25px;
+
+}
+.postContain{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.commentsContains{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-color: white;
+
+}
+.createCom{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
